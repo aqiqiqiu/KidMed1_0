@@ -1,0 +1,50 @@
+__pycache__/
+*.pyc
+*.log
+.env
+vectorstore/  # Chroma 向量库目录（如果存在）
+.idea/
+.vscode/
+*.db
+*.sqlite
+.DS_Store
+models/
+data/knowledge/
+appointments.txt
+# 模型文件（太大，不要上传到 GitHub）
+
+vectorstore/
+*.pth
+*.bin
+*.safetensors
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.so
+
+# 虚拟环境
+agent.env/
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 日志和临时文件
+logs/
+*.log
+*.db
+*.sqlite3
+
+# 环境变量
+.env
+agent.env
+
+# 其他
+.DS_Store
+Thumbs.db
